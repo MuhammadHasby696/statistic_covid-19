@@ -1,0 +1,16 @@
+import "jquery/dist/jquery.min.js";
+import "regenerator-runtime";
+import "./component/main.js";
+import "./component/nav-bar.js";
+import "./component/jumbotron.js";
+import "./component/dataglobal-item.js";
+import "./component/covid-item.js";
+import "./component/gejalacovid-item.js";
+import "./component/dataprovinsi-item.js";
+import "./component/footer-item.js";
+import "./component/dataindo.js";
+import "materialize-css/dist/css/materialize.min.css";
+import "materialize-css/dist/js/materialize.min.js";
+import "./data/data-source.js";
+import "./data/data-provinsi.js";
+import "./style/style.css";

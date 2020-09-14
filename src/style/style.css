@@ -1,0 +1,211 @@
+.slider h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #243665;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.slider a {
+    font-family: 'Montserrat', sans-serif;
+    color: #FF502B;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #243665;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FF502B;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #243665;
+    line-height: 27px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #505f83;
+    font-size: 18;
+    line-height: 27px;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+
+/* navbar */
+
+.container-navbar {
+    margin: 0 30px;
+}
+
+.nav-wrapper img,
+.sidenav img {
+    width: 167px !important;
+    height: 45px !important;
+    margin-top: 8px;
+}
+
+.nav-wrapper,
+.sidenav {
+    background: linear-gradient(to right, #243665, #fb6445);
+}
+
+
+/* global */
+
+#covid .container-covid,
+#gejalacovid .container-gejalacovid {
+    width: 80% !important;
+    margin: auto;
+}
+
+#global {
+    margin-bottom: 30px;
+    padding: 40px;
+}
+
+#global .card {
+    width: 300px;
+    border-radius: 25px;
+}
+
+
+/* covid */
+
+#covid img {
+    width: 80%;
+}
+
+#covid {
+    text-align: right;
+}
+
+
+/* gejala */
+
+#gejala .flexcontent img {
+    width: 70%;
+}
+
+
+/* data indo */
+
+.containerr {
+    overflow: auto;
+    width: 90%;
+    margin: auto;
+}
+
+.flexcontent {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+.flexcontent img {
+    width: 400px;
+}
+
+.flexcontent .konten {
+    margin-right: 60px;
+    margin-top: -40px;
+}
+
+.flexcontent .kanan {
+    margin-right: 80px;
+}
+
+
+/* gejala covid */
+
+#gejala {
+    padding-bottom: 60px;
+}
+
+#gejala img {
+    width: 70%;
+}
+
+
+/* footer */
+
+#footer {
+    padding-top: 40px;
+}
+
+#footer .page-footer,
+#footer .footer-copyright {
+    background: linear-gradient(to right, #243665, #fb6445) !important;
+}
+
+.brtop {
+    border-top: 1px solid white;
+    width: 70%;
+    padding: 10px 0;
+}
+
+#footer .logo-footer {
+    width: 300px;
+    margin-top: 30px;
+}
+
+#footer li {
+    margin-bottom: 10px;
+}
+
+#footer li a:hover {
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.footer-copyright a:hover {
+    color: #f5dc32 !important;
+    transition: 0.5s;
+}
+
+@media (max-width: 700px) {
+    #covid {
+        text-align: center;
+    }
+    #global,
+    #covid,
+    #gejala {
+        margin-bottom: -50px;
+    }
+    #indo {
+        margin-top: -100px !important;
+    }
+    #global img {
+        width: 100%;
+        margin-top: -20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .flexcontent img {
+        width: 100%;
+    }
+    .flexcontent {
+        flex-direction: column;
+    }
+    #gejala .flexcontent {
+        margin-bottom: 40px;
+        flex-direction: column-reverse;
+    }
+    .flexcontent .konten {
+        text-align: center;
+        margin: 0;
+    }
+    /* footer */
+    .page-footer {
+        text-align: center !important;
+    }
+}
